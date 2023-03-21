@@ -59,6 +59,12 @@ img {
     overflow: hidden;
     margin: 1%;
     border-radius: 5px;
+    cursor: zoom-in;
+    transition: transform .3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
 }
 
 @keyframes bounce {
