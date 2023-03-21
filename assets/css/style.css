@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("../img/bg7.jpg") no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+}
+
+h1 {
+    background: none;
+    color: white;
+    width: 100%;
+}
+
+p {
+    color: white;
+    font-size: 1rem;
+}
+
+#start {
+    margin-top: 3%;
+    animation: bounce 1s infinite;
+}
+
+#container {
+    width: 90%;
+    margin: 1% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+section {
+    width: 25%;
+}
+
+img {
+    width: 21vw;
+    height: 25vh;
+    overflow: hidden;
+    margin: 1%;
+    border-radius: 5px;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(-15%);
+        animation-timing-function: cubic-bezier(0.8,0,1,1);
+    }
+    50% {
+        transform: none;
+        animation-timing-function: cubic-bezier(0,0,0.2,1);
+    }
+}
