@@ -5,6 +5,7 @@
     font-family: sans-serif;
     text-align: center;
     scroll-behavior: smooth;
+    font-size: 2rem;
 }
 
 body {
@@ -16,7 +17,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    font-size: 2rem;
     background: url("../img/bg7.jpg") no-repeat;
     background-attachment: fixed;
     background-position: center;
